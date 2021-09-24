@@ -16,8 +16,9 @@
 - In this case it predicts the MPG fairly well. The r-squared value was .715 and the p-value was significant. On the other hand, there is evidence of overfitting, because there is a lack of significant variables out of the six.
 
 ## Summary Statistics on Suspension Coil
-![](images/susp_totalsum.png
-![](images/susp_lotsum.png
+![](images/susp_totalsum.png)
+![](images/susp_lotsum.png)
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 - The variance of the total_summary conforms to the specifications, but is over halfway to the limit. Once you take the individual lots into account, it is clear that Lot3 is significantly over the design specs limit(170.3 PSI). Lot3 changes the total average by a significant margin, as Lot1 and Lot2 have minimal variance. 
+
 
