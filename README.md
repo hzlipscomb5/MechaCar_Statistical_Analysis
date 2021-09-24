@@ -23,19 +23,19 @@
 - The variance of the total_summary conforms to the specifications, but is over halfway to the limit. Once you take the individual lots into account, it is clear that Lot3 is significantly over the design specs limit(170.3 PSI). Lot3 changes the total average by a significant margin, as Lot1 and Lot2 have minimal variance. 
 
 ## T-Tests on Suspension Coils
-###T-Test All Manufacturing Lots
+### T-Test All Manufacturing Lots
 - We are using a significance level of .05 percent, and our P-Value is .06.  Therefore, the evidence is not sufficent to reject our null hypothesis, that the true mean is equal to 1500.
 ![](images/t.test_all.png)
 
-###T-Test Manufacturing Lot 1
+### T-Test Manufacturing Lot 1
 - Since the p-value of lot 1 is 1, the null hypothesis will not be rejected. The null hypothesis is that the mean is equal to 1500.
 ![](images/t.test_lot1.png)###T-Test All Manufacturing Lots
 
-###T-Test Manufacturing Lot 2
+### T-Test Manufacturing Lot 2
 - The p-value of lot 2 is also too high to reject our null hypotheis. The p-value is .061.
 ![](images/t.test_lot2.png)
 
-###T-Test All Manufacturing Lot 3
+### T-Test All Manufacturing Lot 3
 - Manufacturing Lot 3 has a p-value of .042, which is less than our significance level of .05. The null hypothesis for Lot 3 can be rejected, our alternative hypothesis is that the true mean is not equal to 1500.
 ![](images/t.test_lot3.png)
 
